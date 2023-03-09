@@ -1,0 +1,57 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    border: 1px solid black;
+    margin-left: 10px;
+    position: relative;
+}
+.header h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top:15px;
+    margin-bottom:15px;
+    text-shadow: 0 0 3px #000000, 3px 0 3px #000000, 0 3px 3px #000000, -3px 0 3px #000000, 
+    0 -3px 3px #000000;;
+}
+.section p{
+    font-size: 20px;
+    margin-top:15px;
+}
+.ribbon{
+    width: 180px;
+    height: 200px;
+    overflow: hidden;
+    position: absolute;
+}
+.rbText{
+    margin-top: 35px;
+    font: bold 20px 'Times New Roman';
+    color:#ffffff;
+    text-shadow: 0.5px 1px 0px rgba(255,255,255,0.5);
+    text-align: center;
+    transform: rotate(-45deg);
+    padding: 7px 0px;
+    width: 100%;
+    background-color:crimson;
+    box-shadow: 0 0 10px #888888;
+    position:relative;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    margin-left:-40px;
+}
+.rbText:before .rbText:after{
+    content: "";
+    border-top:   3px solid #6e8900;   
+    border-left:  3px solid transparent;
+    border-right: 3px solid transparent;
+    position:absolute;
+    bottom: -3px;
+}
+.rbText:before{
+    right: 0;
+}
+.rbText:after{
+    left: 0;
+}

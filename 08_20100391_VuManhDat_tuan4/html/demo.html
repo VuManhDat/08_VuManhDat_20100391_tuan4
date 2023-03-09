@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{ padding: 0px; margin: 0px auto;}
+        .wrapper{ height: 700px; width: 960px; background-color: antiquewhite;}
+        header{height: 150px; width: 960px; background-color: #294e79; position: relative;}
+        .p1{ position: absolute; top: 20px; left: 60px; color: whitesmoke; font-weight: bolder; font-size: 25px;}
+        .p2{  position: absolute; top: 50px; left: 60px; color: whitesmoke; font-weight: bolder; font-size: 20px;}
+        #frm1{ position: absolute ;top: 20px; left: 700px;}
+        #img1{ position: absolute; top:20px; left: 10px;}
+        .top-menu li{
+            height: 50px; width: 120px; background-color: #50749e; list-style: none;
+            position: relative ; position: absolute;
+            bottom: 10px;
+            left: 300px;
+            line-height: 50px;
+            text-indent: 20px;
+            border: 1px solid whitesmoke;
+            border-radius: 10%;
+        }
+        li a{ text-decoration: none; color: whitesmoke}
+        .top-menu li:hover{ background-color: blanchedalmond; border: 1px solid rosybrown;}
+        li:hover>a{ color: black; font-weight: lighter; font-style: italic;}
+        .top-menu li:nth-child(1){
+            left: 300px;
+        }
+        .top-menu li:nth-child(2){
+            left: 425px ;
+        }
+        .top-menu li:nth-child(3){
+            left :550px;
+        }
+        .top-menu li:nth-child(4){
+            left: 675px;
+        }
+        .top-menu li:nth-child(5){
+            left: 800px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="../img/AnhLogo.PNG" alt="" srcset="" id="img1">
+            <p class="p1">
+                KHOA CNTT
+            </p>
+            <p class="p2">
+                TO SE
+            </p>
+            <form action="" method="get" id="frm1">
+                <input type="text" name="txtName" id="txtName">
+                <button type="submit">Tim</button>
+            </form>
+            <ul class="top-menu">
+                <li><a href=""> ITEM x</a></li>
+                <li><a href=""> ITEM x</a></li>
+                <li><a href=""> ITEM x</a></li>
+                <li><a href=""> ITEM x</a></li>
+                <li><a href=""> ITEM x</a></li>
+            </ul>
+        </header>
+
+    </div>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

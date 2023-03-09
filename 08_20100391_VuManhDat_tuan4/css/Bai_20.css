@@ -1,0 +1,40 @@
+.stitched {
+    width: 150px;
+    padding: 5px;
+    margin: 5px;
+    background: #0d90df;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.3em;
+    border: 2px dashed #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #0d90df, 1px 1px 6px 4px rgba(10, 10, 0, 0.5);
+    text-shadow: -1px -1px #aa3030;
+    font-weight: normal;
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+}
+
+a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.c2 {
+    display: none;
+}
+
+li:hover ul {
+    display: block;
+    left: 120px;
+    margin: 0;
+    position: absolute;
+    margin-top: -30px;
+}
+
+li:hover ul li a:link {
+    display: block;
+    margin: 3px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/Bai_11.css">
+    <title>Bài 11 tuần 3, 4, 5</title>
+</head>
+
+<body>
+    <header>
+        <h1>Thuật toán (Algorithms)</h1>
+    </header>
+    <section>
+        <p>Trong toán học và khoa học máy tính, một thuật toán, còn gọi là giải thuật, là một tập hợp hữu hạn các hướng
+            dẫn được xác định rõ ràng, có thể thực hiện được bằng máy tính, thường để giải quyết một lớp vấn đề hoặc để
+            thực hiện một phép tính. Các thuật toán luôn rõ ràng và được sử dụng chỉ rõ việc thực hiện các phép tính, xử
+            lý dữ liệu, suy luận tự động và các tác vụ khác.</p>
+
+        <p>Là một phương pháp hiệu quả, một thuật toán có thể được biểu diễn trong một khoảng không gian và thời gian
+            hữu hạn, và bằng một ngôn ngữ hình thức được xác định rõ ràng để tính toán một hàm số. Bắt đầu từ trạng thái
+            ban đầu và đầu vào ban đầu (có thể trống), các hướng dẫn mô tả một phép tính, khi được thực thi, sẽ tiến
+            hành qua một số hữu hạn các trạng thái kế tiếp được xác định rõ, cuối cùng tạo ra "đầu ra" và chấm dứt ở
+            trạng thái kết thúc cuối cùng. Sự chuyển đổi từ trạng thái này sang trạng thái tiếp theo không nhất thiết
+            phải mang tính xác định; một số thuật toán, được gọi là thuật toán ngẫu nhiên, kết hợp đầu vào ngẫu nhiên.
+        </p>
+
+        <p>Khái niệm thuật toán đã tồn tại từ thời cổ đại. Các thuật toán số học, chẳng hạn như thuật toán chia, được sử
+            dụng bởi các nhà toán học Babylon cổ đại vào khoảng 2500 TCN và các nhà toán học Ai Cập vào khoảng 1550 TCN.
+            Các nhà toán học Hy Lạp sau đó đã sử dụng các thuật toán trong sàng Eratosthenes để tìm số nguyên tố, và
+            thuật toán Euclide để tìm ước chung lớn nhất của hai số. Các nhà toán học Ả Rập như al-Kindi vào thế kỷ thứ
+            9 đã sử dụng các thuật toán mật mã để phá mã, dựa trên phân tích tần số.</p>
+
+        <p>Bản thân từ thuật toán (algorithm) từ bắt nguồn từ nhà toán học thế kỷ thứ 9 Muḥammad ibn Mūsā al-Khwārizmī,
+            tên ông được Latinh hóa thành Algoritmi. Việc chính thức hóa một phần những gì sẽ trở thành khái niệm thuật
+            toán hiện đại bắt đầu với nỗ lực giải Entscheidungsproblem (vấn đề quyết định) do David Hilbert đặt ra vào
+            năm 1928. Các công thức hóa sau này được đóng khung như những nỗ lực để xác định " khả năng tính toán hiệu
+            quả " hoặc "phương pháp hiệu quả". Những công thức hóa đó bao gồm các hàm đệ quy Gödel - Herbrand - Kleene
+            của các năm 1930, 1934 và 1935, phép tính lambda của Alonzo Church năm 1936, Công thức 1 của Emil Post năm
+            1936 và các máy Turing của Alan Turing năm 1936-37 và 1939.</p>
+        <p>
+            Một vài thuật toán phổ biến:
+        <ol>
+            <li>Thuật toán QuickSort (Sắp xếp nhanh):</li>
+            Còn được gọi là sắp xếp kiểu phân chia (part sort) là một thuật toán sắp xếp phát triển bởi C.A.R. Hoarec
+            sắp thành hai danh sách con. Khác với sắp xếp trộn, chia danh sách cần sắp xếp <b>a[1..n]</b> thành hai danh
+            sách con có kích thước tương đối bằng nhau nhờ chỉ số đứng giữa danh sách, sắp xếp nhanh chia nó thành hai
+            danh sách bằng cách so sánh từng phần tử của danh sách với một phần tử được chọn được gọi là phần tử chốt.
+            Những phần tử nhỏ hơn hoặc bằng phần tử chốt được đưa về phía trước và nằm trong danh sách con thứ nhất, các
+            phần tử lớn hơn chốt được đưa về phía sau và thuộc danh sách đứng sau. Cứ tiếp tục chia như vậy tới khi các
+            danh sách con đều có độ dài bằng 1.
+            <li>Thuật toán Bubble sort (Sắp xếp bong bóng)</li>
+            <p>Đôi khi được gọi là <b>sắp xếp chìm</b>, là một thuật toán sắp xếp đơn giản lặp lại bước qua danh sách,
+                so sánh các phần tử liền kề và hoán đổi chúng nếu chúng không đúng thứ tự. Việc chuyển qua danh sách
+                được lặp lại cho đến khi danh sách được sắp xếp. Thuật toán, là một loại so sánh , được đặt tên theo
+                cách các phần tử nhỏ hơn hoặc lớn hơn "bong bóng" lên đầu danh sách.</p>
+            <p>Thuật toán đơn giản này hoạt động kém trong thế giới thực và được sử dụng chủ yếu như một công cụ giáo
+                dục. Các thuật toán hiệu quả hơn như quicksort , timsort hoặc merge sort được sử dụng bởi các thư viện
+                sắp xếp được tích hợp trong các ngôn ngữ lập trình phổ biến như Python và Java.</p>
+        </ol>
+        </p>
+    </section>
+    <footer>
+        <b class="end">I will be stuck here.</b>
+    </footer>
+</body>
+
+</html>

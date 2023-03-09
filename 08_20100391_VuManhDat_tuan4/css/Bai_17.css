@@ -1,0 +1,21 @@
+.c1_Ngang{
+    display: flex;
+    list-style-type: none;
+    
+}
+.stitched{
+    width: 100px;
+    padding: 5px;
+    background: #aa3030;   
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.3em;
+    border: 1px solid black;
+    font-weight: normal;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-shadow: -0.5px -0.5px rgb(124, 123, 123), 0.5px 0.5px rgb(124, 123, 123);
+}

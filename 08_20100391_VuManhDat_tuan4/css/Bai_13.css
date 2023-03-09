@@ -1,0 +1,19 @@
+div{
+    display:flex;
+    padding:0px;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    border: solid 1px black;
+}
+img{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 300px;
+    height: 330px;
+}
+img:hover{
+    transform: scale(1.07);
+}
